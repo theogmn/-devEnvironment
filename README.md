@@ -3,15 +3,15 @@
 <h1>Configuração padrão do VsCode(settings.json)</h1>
 
 ```
-  "[javascript]": {
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    }
+"[javascript]": {
+"editor.codeActionsOnSave": {
+"source.fixAll.eslint": true
+}
 },
 "[javascriptreact]": {
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    }
+"editor.codeActionsOnSave": {
+"source.fixAll.eslint": true
+}
 },
 
 Editar o .eslintrc.js:
