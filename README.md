@@ -29,8 +29,7 @@
 
 <h3>Remover o package-lock.json e rodar o yarn.(Isso ocorre pois ele instala as dependências do airbnb pelo npm).</h3>
 
-<h3>yarn add prettier eslint-config-prettier e
-slint-plugin-prettier babel-eslint -D </h3>
+<h3>yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D </h3>
 
 <h3>Adicionar o arquivo .prettierrc e .eslintrc à raiz do projeto.</h3>
 
@@ -52,8 +51,7 @@ slint-plugin-prettier babel-eslint -D </h3>
 
 <h3>Remover o package-lock.json e rodar o yarn.(Isso ocorre pois ele instala as dependências do airbnb pelo npm).</h3>
 
-<h3>yarn add prettier eslint-config-prettier e
-slint-plugin-prettier babel-eslint -D </h3>
+<h3>yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D </h3>
 
 <h3>Adicionar o arquivo .prettierrc e .eslintrc à raiz do projeto.</h3>
 
