@@ -1,7 +1,8 @@
 <span>Configurações de ambiente para projetos React/ReactNative</span>
 
 <h1>Configuração padrão do VsCode(settings.json)</h1>
-```json
+
+```
   "[javascript]": {
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
