@@ -3,50 +3,16 @@
 <h1>Configuração padrão do VsCode(settings.json)</h1>
 
 ```json
-"[javascript]": {
-"editor.codeActionsOnSave": {
-"source.fixAll.eslint": true
-}
-},
-"[javascriptreact]": {
-"editor.codeActionsOnSave": {
-"source.fixAll.eslint": true
-}
-},
-
-Editar o .eslintrc.js:
-rules: {
-"class-methods-use-this": "off",
-"no-param-reassign": "off",
-"camelcase": "off",
-"no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
-},
-
-
-5.2.1-Prettier
-Utilizado para realizar correções no código que o ESLint não faz.
-
-5.2.2-Adicionar Prettier
-yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
-
-5.2.3-Configurar Prettier
-Adicionar ao .eslintrc.js:
-extends: [
-'airbnb-base',
-'prettier'
-],
-plugins:[
-'prettier'
-],
-
-rules: {
-"prettier/prettier": "error",
-"class-methods-use-this": "off",
-"no-param-reassign": "off",
-"camelcase": "off",
-"no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
-},
-
+ "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+  "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
 ```
 
 <h1>NodeJS</h1>
