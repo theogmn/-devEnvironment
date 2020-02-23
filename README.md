@@ -1,7 +1,7 @@
 <span>Configurações de ambiente para projetos React/ReactNative</span>
 
 <h1>Configuração padrão do VsCode(settings.json)</h1>
-<p>
+[…] 
   "[javascript]": {
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
@@ -46,7 +46,7 @@ rules: {
 "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
 },
 
-</p>
+[...]
 
 <h1>NodeJS</h1>
 <ol>
